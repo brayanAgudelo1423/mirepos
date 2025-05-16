@@ -27,6 +27,7 @@ function adjustColumns() {
         rightBoxes.forEach((box) => {
             box.style.height = `${boxHeight}px`;
             box.style.overflow = 'hidden'; // Asegurar que el contenido no se desborde
+            // melo
         });
     }
 }
