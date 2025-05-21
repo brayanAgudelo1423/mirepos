@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/Style.css">
+    
+    <title>Document</title>
+      
+
+</head>
+<body>
+    <header>        
+        <nav>
+            <div class="nav-wrapper" style="display: flex; align-items: center; justify-content: space-between; padding: 0 20px;">
+                <h1></h1>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href=""></a></li>
+                    <li><a href="" target="_blank"></a></li>
+                    <li><a href="" target="_blank"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="main-div" >
+            <div class="form" >
+                <div class="container width lighten-5 z-depth-3">
+                    <h2 class="center-align dark-text text-darken-3">Registro</h2>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">account_box</i>
+                        <input id="icon_prefix" type="text" class="validate" placeholder=" Cedula " required onblur="validarCedula()">
+                        <label for="icon_prefix"></label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">person</i>
+                        <input id="icon_nombre" type="text" class="validate" placeholder=" Nombre " required onblur="validarNombre()">
+                        <label for="icon_nombre"></label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">perm_identity</i>
+                        <input id="perm_identity" type="text" class="validate" placeholder=" Apellido " required onblur="validarApellido()">
+                        <label for="perm_identity"></label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">email</i>
+                        <input id="email" type="text" class="validate" placeholder=" Email " required onblur="validarEmail()">
+                        <label for="email"></label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">accessibility</i>
+                        <input id="accessibility" type="text" class="validate" placeholder=" Nombre de Usuario  " required>
+                        <label for="accessibility"></label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">phonelink_lock</i>
+                        <input id="phonelink_lock" type="password" class="validate" placeholder=" Clave " required onblur="validarClave()">
+                        <label for="phonelink_lock"></label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">event</i>
+                        <input type="text" class="datepicker"name="date" id="date" placeholder=" Fecha de Nacimiento " required onblur="validarFecha()">
+                        <label for="date"></label>
+                    </div>
+                    <div class="button-container" >
+                        <a href="../html/presen.html">
+                            <button class="btn waves-effect waves-light" id="button" type="submit" name="action"><a href="../html/presen.html">Ingresar</a>
+                            <i class="material-icons right">send</i>
+                            </button>
+                        </a>
+                    </div>
+               </div>   
+            </div>   
+        </div>
+
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Brayan - Carlos</p>
+    </footer>
+    
+
+    <script type= "text/javascript" src="../js/jquery-3.7.1.min.js"></script>
+    <script type= "text/javascript" src="./js/materialize.min.js"></script>
+    <script type= "text/javascript" src="../js/inde.js"></script>
+</body>
+</html>
